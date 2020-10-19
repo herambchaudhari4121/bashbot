@@ -1,5 +1,5 @@
 Bashbot was originally an idea and bash snippet from [Jonathan
-Hitchcock](/vhata). I took it and bastardised it beyond imagination.
+Hitchcock](/vhata). I took it as bastardised and it was beyond imagination.
 
 It's a fully-featured, modular IRC bot.
 
@@ -7,7 +7,7 @@ The modules come in 2 types:
 
 * Commands are matched by filename. I.e. `bot: foo bar` will run the
   command `foo` if it exists.
-* Regex commands are matched by a regex in the file's first line
+* Regex commands are matched by the regex in the file's first line
   (commented). So a regex-command beginning with `# ^(.*) is( also)?
   (.*)$` will be executed if you try and set a factoid with `bot:
   Spinach is a vegtable`
